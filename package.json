@@ -1,0 +1,49 @@
+{
+  "name": "typescript-koa-starter",
+  "version": "0.0.1",
+  "description": "Sample Typescript Koa Starter",
+  "scripts": {
+    "start": "ts-node ./src/app.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "typescript",
+    "koa",
+    "starter"
+  ],
+  "author": "AGUMON",
+  "license": "MIT",
+  "dependencies": {
+    "@koa/cors": "^3.0.0",
+    "koa": "^2.11.0",
+    "koa-bodyparser": "^4.2.1",
+    "koa-helmet": "^5.2.0",
+    "koa-json": "^2.0.2",
+    "koa-logger": "^3.2.1",
+    "koa-router": "^7.4.0",
+    "koa-swagger-decorator": "^1.6.0",
+    "reflect-metadata": "^0.1.13"
+  },
+  "devDependencies": {
+    "@types/koa": "^2.11.0",
+    "@types/koa-bodyparser": "^4.3.0",
+    "@types/koa-helmet": "^3.1.2",
+    "@types/koa-json": "^2.0.18",
+    "@types/koa-logger": "^3.1.1",
+    "@types/koa-router": "^7.0.42",
+    "@types/koa__cors": "^2.2.3",
+    "@types/node": "^13.1.2",
+    "ts-node": "^8.5.4",
+    "tsc": "^1.20150623.0",
+    "tslint": "^5.20.1",
+    "typescript": "^3.7.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ljlm0402/typescript-koa-starter.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ljlm0402/typescript-koa-starter/issues"
+  },
+  "homepage": "https://github.com/ljlm0402/typescript-koa-starter#readme"
+}
