@@ -1,18 +1,18 @@
 {
   "name": "typescript-koa-starter",
-  "version": "0.0.1",
-  "description": "Sample Typescript Koa Starter",
-  "scripts": {
-    "start": "ts-node ./src/app.ts",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "version": "1.0.0",
+  "description": "Quick and Easy TypeScript Koa Starter",
+  "author": "AGUMON <ljlm0402@gmail.com>",
+  "license": "MIT",
   "keywords": [
     "typescript",
     "koa",
     "starter"
   ],
-  "author": "AGUMON",
-  "license": "MIT",
+  "scripts": {
+    "start": "ts-node ./src/app.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "dependencies": {
     "@koa/cors": "^3.0.0",
     "koa": "^2.11.0",
