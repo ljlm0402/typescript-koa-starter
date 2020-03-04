@@ -8,29 +8,31 @@
 
 <br />
 
-## 🧐 What is it?
+## 🤔 What is Koa ?
 
-Creates a new typescript koa application.
-application is configured to use TypeScript instead of plain JavaScript. 
+Create TypeScript Koa Project.
 
-## 🤔 Why typescript-koa-starter?
+application is configured to use TypeScript instead of plain JavaScript.
 
-Node Js is great for the rapid development of web-projects, but is often neglected because of the lack of
-type safety. TypeScript solves this issue and (along with its linter file) can even make your code
-more robust than some other static languages like Java.
+## 🧐 What is The package ?
 
-## ⚙️ Installation
+Koa is a new web framework designed by the team behind Express, which aims to be a smaller, more expressive, and more robust foundation for web applications and APIs. By leveraging async functions, Koa allows you to ditch callbacks and greatly increase error-handling. Koa does not bundle any middleware within its core, and it provides an elegant suite of methods that make writing servers fast and enjoyable.
+
+## 🚀 Quick Start
+
+### Install with the npm global package
 
 ```sh
 $ npm install -g typescript-koa-starter
 ```
 
-## 🚀 Quick Start
+### Run npx to install the package
 
-The quickest way to get started is use npx and pass in the name of the project you want to create.
-If you don't specify a project name, the default _typescript-koa-starter_ will be used instead.
+npx is a tool in the JavaScript package management module, npm.
 
-### 1. Create the app
+This is a tool that allows you to run the npm package on a single run without installing the package.
+
+If you do not enter a project name, it defaults to _typescript-koa-starter_.
 
 ```bash
 $ npx typescript-koa-starter "project name"

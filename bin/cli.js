@@ -2,7 +2,8 @@
 
 /*****************************************************************
  * Create new typescript-koa-starter project.
- * created by Lim Kyungmin, 01/02/2020
+ * By AGUMON <ljlm0402@gmail.com> 
+ * January 2, 2020
  *****************************************************************/
 
 const path = require('path');

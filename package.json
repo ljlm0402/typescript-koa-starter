@@ -1,14 +1,14 @@
 {
   "name": "typescript-koa-starter",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Quick and Easy TypeScript Koa Starter",
   "author": "AGUMON <ljlm0402@gmail.com>",
   "license": "MIT",
   "main": "bin/cli.js",
   "keywords": [
+    "typescript",
     "koa",
-    "jest",
-    "typescript"
+    "jest"
   ],
   "bin": {
     "typescript-koa-starter": "bin/cli.js"
